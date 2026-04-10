@@ -32,7 +32,7 @@ A "Who Wants to Be a Millionaire?" style quiz game built with React. Answer 15 b
 ### Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/millionaire-game.git
+git clone https://github.com/aloyeez/millionaire-game.git
 cd millionaire-game
 npm install
 ```
