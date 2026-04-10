@@ -51,7 +51,7 @@ export default function Trivia({
             <div className="question">{question?.question}</div>
             <div className="answers">
                 {question?.answers.map((a) => (
-                    <div className={selectedAnswer === a ? className : "answer"} onClick={()=>handleClick(a)}>{a.text}</div>
+                    <div key={a.text} className={selectedAnswer === a ? className : "answer"} onClick={()=>handleClick(a)}>{a.text}</div>
                 ))}
                 
                 

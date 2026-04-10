@@ -321,22 +321,22 @@ function App() {
     },
     {
       id: 15,
-      question: "Which factor primarily affects the color of beer?",
+      question: "Which ingredient gives beer its bitter flavor?",
       answers: [
         {
-          text: "The type of hops used",
+          text: "Barley",
           correct: false,
         },
         {
-          text: "The fermentation temperature",
+          text: "Yeast",
           correct: false,
         },
         {
-          text: "The malt roasting level",
+          text: "Hops",
           correct: true,
         },
         {
-          text: "The amount of water used",
+          text: "Water",
           correct: false,
         },
       ],
@@ -393,11 +393,11 @@ function App() {
       <div className="pyramid">
         <ul className="moneyList">
           {moneyPyramid.map((m)=>(
-          <li className={questionNumber === m.id ? "moneyListItem active" : "moneyListItem"}>
-            <span className="moneyListItemNumber">{m.id}</span>        
+          <li key={m.id} className={questionNumber === m.id ? "moneyListItem active" : "moneyListItem"}>
+            <span className="moneyListItemNumber">{m.id}</span>
             <span className="moneyListItemAmount">{m.amount}</span>
           </li>
-          ))};
+          ))}
         </ul>
       </div>
       </>
