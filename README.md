@@ -2,10 +2,6 @@
 
 A "Who Wants to Be a Millionaire?" style quiz game built with React. Answer 15 beer-themed trivia questions correctly to win $1,000,000. Each question has a 30-second timer — run out of time or pick the wrong answer and the game ends.
 
-## Demo
-
-![Game screenshot](src/assets/bg.jpg)
-
 ## Features
 
 - 15 progressive trivia questions on beer and brewing
